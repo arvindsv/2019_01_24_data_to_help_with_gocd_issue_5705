@@ -1,0 +1,45 @@
+##|14:41:03.029 [go] Job Started: 2019-01-24 14:41:03 EST
+##|14:41:03.029 
+pr|14:41:03.030 [go] Start to prepare Test/1/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+pr|14:41:03.064 [go] Start to update materials.
+pr|14:41:03.064 
+pr|14:41:03.067 [go] Start updating files at revision 3b15ebbae639990b8f4790a8c05d5ac15f9e9ed1 from https://github.com/arvindsv/faketime.git
+pe|14:41:03.092 STDERR: Cloning into '/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0/pipelines/Test'...
+pr|14:41:05.272 [GIT] Fetching changes
+pr|14:41:05.988 [GIT] Performing git gc
+pr|14:41:06.126 [GIT] Reset working directory pipelines/Test
+pr|14:41:06.126 [GIT] Cleaning all unversioned files in working copy
+pr|14:41:06.262 [GIT] Cleaning submodule configurations in .git/config
+pr|14:41:06.379 [GIT] Updating working copy to revision 3b15ebbae639990b8f4790a8c05d5ac15f9e9ed1
+pr|14:41:06.404 HEAD is now at 3b15ebb Change README formatting a bit
+pr|14:41:06.509 [GIT] Removing modified files in submodules
+pr|14:41:06.955 [GIT] Cleaning all unversioned files in working copy
+pr|14:41:07.184 [go] Done.
+pr|14:41:07.184 
+pr|14:41:07.186 [go] setting environment variable 'GO_SERVER_URL' to value 'https://127.0.0.1:8154/go'
+pr|14:41:07.186 [go] setting environment variable 'GO_TRIGGER_USER' to value 'changes'
+pr|14:41:07.186 [go] setting environment variable 'GO_PIPELINE_NAME' to value 'Test'
+pr|14:41:07.186 [go] setting environment variable 'GO_PIPELINE_COUNTER' to value '1'
+pr|14:41:07.186 [go] setting environment variable 'GO_PIPELINE_LABEL' to value '1'
+pr|14:41:07.187 [go] setting environment variable 'GO_STAGE_NAME' to value 'defaultStage'
+pr|14:41:07.187 [go] setting environment variable 'GO_STAGE_COUNTER' to value '1'
+pr|14:41:07.187 [go] setting environment variable 'GO_JOB_NAME' to value 'defaultJob'
+pr|14:41:07.187 [go] setting environment variable 'GO_REVISION' to value '3b15ebbae639990b8f4790a8c05d5ac15f9e9ed1'
+pr|14:41:07.187 [go] setting environment variable 'GO_TO_REVISION' to value '3b15ebbae639990b8f4790a8c05d5ac15f9e9ed1'
+pr|14:41:07.187 [go] setting environment variable 'GO_FROM_REVISION' to value '3b15ebbae639990b8f4790a8c05d5ac15f9e9ed1'
+pr|14:41:07.187 [go] setting environment variable 'GO_MATERIAL_HAS_CHANGED' to value 'true'
+pr|14:41:07.187 
+##|14:41:07.196 [go] Start to build Test/1/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+!!|14:41:07.218 [go] Task: ls
+&1|14:41:07.235 FakeTimeTest.java
+&1|14:41:07.236 README.md
+&1|14:41:07.236 lib
+&1|14:41:07.236 src
+&1|14:41:07.236 test_linux.sh
+&1|14:41:07.236 test_linux_64.sh
+&1|14:41:07.236 test_mac.sh
+?0|14:41:07.339 [go] Task status: passed (120 ms)
+j0|14:41:07.373 [go] Current job status: passed
+##|14:41:07.393 [go] Start to create properties Test/1/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+ar|14:41:07.393 [go] Start to upload Test/1/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+ex|14:41:07.397 [go] Job completed Test/1/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]

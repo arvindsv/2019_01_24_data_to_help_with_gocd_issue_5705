@@ -1,0 +1,43 @@
+##|14:46:27.967 [go] Job Started: 2019-01-24 14:46:27 EST
+##|14:46:27.967 
+pr|14:46:27.967 [go] Start to prepare Test/2/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+pr|14:46:27.984 [go] Start to update materials.
+pr|14:46:27.984 
+pr|14:46:27.984 [go] Start updating files at revision c9d6564db94466a4a64c7749e7e3261c8abb1d0e from /private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/abc
+pe|14:46:28.120 STDERR: Cloning into '/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0/pipelines/Test'...
+pe|14:46:28.144 STDERR: done.
+pr|14:46:28.320 [GIT] Fetching changes
+pr|14:46:28.478 [GIT] Performing git gc
+pr|14:46:28.597 [GIT] Reset working directory pipelines/Test
+pr|14:46:28.597 [GIT] Cleaning all unversioned files in working copy
+pr|14:46:28.845 [GIT] Cleaning submodule configurations in .git/config
+pr|14:46:28.963 [GIT] Updating working copy to revision c9d6564db94466a4a64c7749e7e3261c8abb1d0e
+pr|14:46:28.982 HEAD is now at c9d6564 X
+pr|14:46:28.983 [GIT] Removing modified files in submodules
+pr|14:46:29.213 [GIT] Cleaning all unversioned files in working copy
+pr|14:46:29.445 [go] Done.
+pr|14:46:29.445 
+pr|14:46:29.446 [go] setting environment variable 'GO_SERVER_URL' to value 'https://127.0.0.1:8154/go'
+pr|14:46:29.446 [go] setting environment variable 'GO_TRIGGER_USER' to value 'anonymous'
+pr|14:46:29.446 [go] setting environment variable 'GO_PIPELINE_NAME' to value 'Test'
+pr|14:46:29.446 [go] setting environment variable 'GO_PIPELINE_COUNTER' to value '2'
+pr|14:46:29.446 [go] setting environment variable 'GO_PIPELINE_LABEL' to value '2'
+pr|14:46:29.446 [go] setting environment variable 'GO_STAGE_NAME' to value 'defaultStage'
+pr|14:46:29.446 [go] setting environment variable 'GO_STAGE_COUNTER' to value '1'
+pr|14:46:29.446 [go] setting environment variable 'GO_JOB_NAME' to value 'defaultJob'
+pr|14:46:29.446 [go] setting environment variable 'GO_REVISION_ABC' to value 'c9d6564db94466a4a64c7749e7e3261c8abb1d0e'
+pr|14:46:29.446 [go] setting environment variable 'GO_TO_REVISION_ABC' to value 'c9d6564db94466a4a64c7749e7e3261c8abb1d0e'
+pr|14:46:29.446 [go] setting environment variable 'GO_FROM_REVISION_ABC' to value 'c9d6564db94466a4a64c7749e7e3261c8abb1d0e'
+pr|14:46:29.446 [go] setting environment variable 'GO_MATERIAL_ABC_HAS_CHANGED' to value 'true'
+pr|14:46:29.446 
+##|14:46:29.452 [go] Start to build Test/2/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+!!|14:46:29.467 [go] Task: ls
+&1|14:46:29.477 out
+?0|14:46:29.578 [go] Task status: passed (110 ms)
+j0|14:46:29.597 [go] Current job status: passed
+##|14:46:29.611 [go] Start to create properties Test/2/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+ar|14:46:29.612 [go] Start to upload Test/2/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]
+ar|14:46:29.629 [go] Uploading artifacts from /private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0/pipelines/Test/out to out
+ar|14:46:30.028 [go] Uploading artifacts from /private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0/data/cruise-1927245c-ed58-47e2-8deb-902c0e6ba2b7/1db5fb29-9fb8-4115-bc1a-bfb1a1f9f9fe/result/index.html to testoutput
+ar|14:46:30.042 [go] Uploading artifacts from /private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0/data/cruise-1927245c-ed58-47e2-8deb-902c0e6ba2b7/1db5fb29-9fb8-4115-bc1a-bfb1a1f9f9fe/result to testoutput
+ex|14:46:30.054 [go] Job completed Test/2/defaultStage/1/defaultJob on aravindsv.local [/private/var/folders/vt/5wgr6fyj1791pr5p7n3fprj00000gn/T/duck.4JHwFq/go-agent-18.12.0]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cruise-config.xsd" schemaVersion="115">
+  <server artifactsdir="artifacts" agentAutoRegisterKey="127a1f54-85ef-491e-8234-faf29b081364" webhookSecret="3ad00aa5-39a4-401d-a718-eb59b9f376eb" commandRepositoryLocation="default" serverId="eb357ea2-aa81-4c45-8be4-21ce127bf944" tokenGenerationKey="7c18bd0b-5752-4827-9401-1ba67bc84616">
+    <backup emailOnSuccess="true" emailOnFailure="true" />
+  </server>
+  <pipelines group="defaultGroup">
+    <pipeline name="Test">
+      <materials>
+        <git url="/abc" materialName="abc" />
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <exec command="ls" />
+            </tasks>
+            <artifacts>
+              <artifact type="test" src="out" dest="out" />
+            </artifacts>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+  </pipelines>
+  <agents>
+    <agent hostname="aravindsv.local" ipaddress="127.0.0.1" uuid="a0e73740-eb5b-4a9a-aaba-9dc3173f4377" />
+  </agents>
+</cruise>
