@@ -65,7 +65,10 @@
 		<testcase classname="TdgRunner" name="CO_3110N"/>
 		<testcase classname="TdgRunner" name="CO_3202"/>
 		<testcase classname="TdgRunner" name="DEV-218 Raw Steps"/>
-		<testcase classname="TdgRunner" name="DEV-225 ForEach"/>
+		<testcase classname="TdgRunner" name="DEV-225 ForEach">
+			<failure type="ArgumentNullException">Value cannot be null.
+Parameter name: valueType</failure>
+		</testcase>
 		<testcase classname="TdgRunner" name="DEV-238"/>
 		<testcase classname="TdgRunner" name="FI_1101"/>
 		<testcase classname="TdgRunner" name="FI_1102"/>
@@ -170,7 +173,9 @@
 		<testcase classname="TdgRunner" name="MM_1302"/>
 		<testcase classname="TdgRunner" name="MM_1303"/>
 		<testcase classname="TdgRunner" name="MM_1304"/>
-		<testcase classname="TdgRunner" name="MM_1305"/>
+		<testcase classname="TdgRunner" name="MM_1305">
+			<failure type="RuntimeBinderException">'Suxxesso.Commons.DOM.Pilot.IListVariable' does not contain a definition for 'Add'</failure>
+		</testcase>
 		<testcase classname="TdgRunner" name="MM_1306"/>
 		<testcase classname="TdgRunner" name="MM_1307"/>
 		<testcase classname="TdgRunner" name="MM_1401"/>
@@ -187,41 +192,23 @@
 		<testcase classname="TdgRunner" name="MM_1510"/>
 		<testcase classname="TdgRunner" name="MM_1511"/>
 		<testcase classname="TdgRunner" name="MM_2101"/>
-		<testcase classname="TdgRunner" name="MM_2102">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
+		<testcase classname="TdgRunner" name="MM_2102"/>
 		<testcase classname="TdgRunner" name="MM_2103"/>
 		<testcase classname="TdgRunner" name="MM_2104"/>
 		<testcase classname="TdgRunner" name="MM_2108"/>
-		<testcase classname="TdgRunner" name="MM_2109">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
+		<testcase classname="TdgRunner" name="MM_2109"/>
 		<testcase classname="TdgRunner" name="MM_2110"/>
-		<testcase classname="TdgRunner" name="MM_2111">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
+		<testcase classname="TdgRunner" name="MM_2111"/>
 		<testcase classname="TdgRunner" name="MM_2112"/>
 		<testcase classname="TdgRunner" name="MM_2113"/>
 		<testcase classname="TdgRunner" name="MM_2116"/>
 		<testcase classname="TdgRunner" name="MM_2117"/>
-		<testcase classname="TdgRunner" name="MM_2118">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_2119">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_2120">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_2121">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_2124">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_2125">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
+		<testcase classname="TdgRunner" name="MM_2118"/>
+		<testcase classname="TdgRunner" name="MM_2119"/>
+		<testcase classname="TdgRunner" name="MM_2120"/>
+		<testcase classname="TdgRunner" name="MM_2121"/>
+		<testcase classname="TdgRunner" name="MM_2124"/>
+		<testcase classname="TdgRunner" name="MM_2125"/>
 		<testcase classname="TdgRunner" name="MM_2128"/>
 		<testcase classname="TdgRunner" name="MM_2129"/>
 		<testcase classname="TdgRunner" name="MM_2130"/>
@@ -234,28 +221,16 @@
 		<testcase classname="TdgRunner" name="MM_2204"/>
 		<testcase classname="TdgRunner" name="MM_2205"/>
 		<testcase classname="TdgRunner" name="MM_3101"/>
-		<testcase classname="TdgRunner" name="MM_3102">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_3103n">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_3104">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_3105">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
+		<testcase classname="TdgRunner" name="MM_3102"/>
+		<testcase classname="TdgRunner" name="MM_3103n"/>
+		<testcase classname="TdgRunner" name="MM_3104"/>
+		<testcase classname="TdgRunner" name="MM_3105"/>
 		<testcase classname="TdgRunner" name="MM_3106"/>
 		<testcase classname="TdgRunner" name="MM_3109"/>
 		<testcase classname="TdgRunner" name="MM_3110"/>
 		<testcase classname="TdgRunner" name="MM_3111"/>
-		<testcase classname="TdgRunner" name="MM_3114">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_3115">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
+		<testcase classname="TdgRunner" name="MM_3114"/>
+		<testcase classname="TdgRunner" name="MM_3115"/>
 		<testcase classname="TdgRunner" name="MM_3116"/>
 		<testcase classname="TdgRunner" name="MM_3117"/>
 		<testcase classname="TdgRunner" name="MM_3119"/>
@@ -267,15 +242,9 @@
 		<testcase classname="TdgRunner" name="MM_4101"/>
 		<testcase classname="TdgRunner" name="MM_4103"/>
 		<testcase classname="TdgRunner" name="MM_4104"/>
-		<testcase classname="TdgRunner" name="MM_4105">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_4106">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
-		<testcase classname="TdgRunner" name="MM_4107">
-			<failure type="InvalidOperationException">FindById('/app/con[0]/ses[0]/wnd[0]/usr/subSUB0:SAPLMEGUI:0015/subSUB1:SAPLMEVIEWS:1100/subSUB2:SAPLMEVIEWS:1200/subSUB1:SAPLMEGUI:1102/tabsHEADER_DETAIL/tabpTABHDT1') failed: The control could not be found by id.</failure>
-		</testcase>
+		<testcase classname="TdgRunner" name="MM_4105"/>
+		<testcase classname="TdgRunner" name="MM_4106"/>
+		<testcase classname="TdgRunner" name="MM_4107"/>
 		<testcase classname="TdgRunner" name="MM_4108"/>
 		<testcase classname="TdgRunner" name="MM_4109"/>
 		<testcase classname="TdgRunner" name="MM_4110"/>
